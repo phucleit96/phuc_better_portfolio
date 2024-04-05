@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 from constant import *
+st.set_page_config(layout="wide")
 
 def local_css(file_name):
     with open(file_name) as f:
@@ -25,7 +26,7 @@ with col2:
 
 
 
-col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
+col3, empty_col, col4 = st.columns([1.5, 1, 1.5])
 
 df = pandas.read_csv('data.csv', sep=",")
 
