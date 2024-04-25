@@ -10,10 +10,9 @@ local_css("style/style.css")
 
 st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
-st.title("📝 Resume")
-
-st.write("[Click here if it's blocked by your browser](https://drive.google.com/file/d/1oeo9kq8YMtlcmfeZ-NII5VVCHhQ_ee_y/view?usp=sharing)")
-
+st.title("📝 Resume & Transcript")
+st.write("[Click here if my Resume's blocked by your browser](https://drive.google.com/file/d/1oeo9kq8YMtlcmfeZ-NII5VVCHhQ_ee_y/view?usp=sharing)")
+st.write("[Click here if my Transcript's blocked by your browser](https://drive.google.com/file/d/14dm6myh8RWncmxk1sn5K0v2PxO_JXbEX/view?usp=sharing)")
 def get_base64_of_bin_file(bin_file):
     with open(bin_file, 'rb') as f:
         data = f.read()
